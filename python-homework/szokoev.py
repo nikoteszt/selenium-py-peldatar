@@ -1,9 +1,9 @@
-def leap_year():
+def leap_year(x):
 
-    if age % 400 != 0:
-        if age % 100 == 0:
+    if x % 400 != 0:
+        if x % 100 == 0:
             return False
-        elif age % 4 == 0:
+        elif x % 4 == 0:
             return True
         else:
             return False
@@ -13,7 +13,7 @@ def leap_year():
 
 age = int(input("Írj be egy évszámot : "))
 
-answer = leap_year()
+answer = leap_year(age)
 
 if answer:
     print(age, "Szökőév")
