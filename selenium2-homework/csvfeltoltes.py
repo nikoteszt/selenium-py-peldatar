@@ -31,6 +31,6 @@ export_button = driver.find_element_by_tag_name("button")
 export_button.click()
 time.sleep(2)
 filecmp.clear_cache()
-print(filecmp.cmp('table_in_006.csv', 'C:\\Users\\Simon\\Downloads\\table.csv'))
+print(filecmp.cmp('table_in_006.csv', 'C:\\Users\\Simon\\Downloads\\table.csv', shallow=False))
 
 driver.quit()
