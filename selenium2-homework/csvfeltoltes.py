@@ -36,7 +36,7 @@ file1 = "table_in_006.csv"
 file2 = "C:\\Users\\Simon\\Downloads\\table.csv"
 
 filecmp.clear_cache()
-print("A csv filek (bit szerintű) identikálásának az eredménye:")
+print(f'A {file1} és {file2} (bit szerintű) identikálásának az eredménye:')
 print(filecmp.cmp(file1, file2, shallow=False))
 print("-" * 50)
 print("A csv filek (tartalom szerinti) identikálásának az eredménye:")
