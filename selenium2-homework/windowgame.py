@@ -16,9 +16,9 @@ stop = 99
 while True:
     i = random.randint(0, stop)
     buttons[i].click()
-    time.sleep(1)
+    # time.sleep(1)
     driver.switch_to.window(driver.window_handles[-1])
-    time.sleep(1)
+    # time.sleep(1)
 
     if not driver.find_element_by_tag_name("h1").text == target_color:
         stop -= 1
@@ -28,7 +28,7 @@ while True:
     driver.close()
 
     driver.switch_to.window(main_window)
-    time.sleep(1)
+    # time.sleep(1)
     buttons.pop(i)
 
 
