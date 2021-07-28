@@ -1,0 +1,41 @@
+[ {
+  "uid" : "e01144bb8cba7cab",
+  "name" : "test_add_positive",
+  "time" : {
+    "start" : 1627457678596,
+    "stop" : 1627457678596,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "637201d83f48f9dc",
+  "name" : "test_add_zero",
+  "time" : {
+    "start" : 1627457678599,
+    "stop" : 1627457678599,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f267d05350243708",
+  "name" : "test_add_string__expect_exception",
+  "time" : {
+    "start" : 1627457678602,
+    "stop" : 1627457678602,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bda15cfee26bbd66",
+  "name" : "test_add_negative",
+  "time" : {
+    "start" : 1627457678600,
+    "stop" : 1627457678601,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
